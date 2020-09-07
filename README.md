@@ -1,2 +1,5 @@
 # MapleMini (Type C)
- Modification of Maple Mini development board
+
+[Work In Progress]
+
+Modification of Maple Mini development board
