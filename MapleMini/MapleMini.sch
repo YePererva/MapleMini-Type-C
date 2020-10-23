@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L MapleMini-rescue:USB_C_Receptacle_USB2.0-Connector J?
 U 1 1 5F56CB65
 P 1000 1550
 F 0 "J?" H 1107 2417 50  0000 C CNN
