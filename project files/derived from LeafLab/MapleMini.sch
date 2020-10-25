@@ -1400,9 +1400,9 @@ Text GLabel 10550 5150 2    50   Input ~ 0
 SWCLK
 Wire Wire Line
 	7450 3000 7700 3000
-Text GLabel 10550 5850 2    50   Output ~ 0
+Text GLabel 10550 5950 2    50   Output ~ 0
 TX
-Text GLabel 10550 5950 2    50   Input ~ 0
+Text GLabel 10550 5850 2    50   Input ~ 0
 RX
 Text GLabel 9250 3700 2    50   Input ~ 0
 RX

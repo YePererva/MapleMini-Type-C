@@ -1285,9 +1285,9 @@ Text GLabel 9600 5450 2    50   Output ~ 0
 SWO
 Text GLabel 9600 5350 2    50   Input ~ 0
 SWDIO
-Text GLabel 9600 5950 2    50   Input ~ 0
+Text GLabel 9600 6050 2    50   Input ~ 0
 TX
-Text GLabel 9600 6050 2    50   Output ~ 0
+Text GLabel 9600 5950 2    50   Output ~ 0
 RX
 $Comp
 L power:+3.3V #PWR025
