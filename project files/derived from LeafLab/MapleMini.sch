@@ -176,17 +176,6 @@ F 3 "" H 1150 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
-U 1 1 5F576CBF
-P 4100 1500
-F 0 "#PWR04" H 4100 1350 50  0001 C CNN
-F 1 "VCC" H 4115 1673 50  0000 C CNN
-F 2 "" H 4100 1500 50  0001 C CNN
-F 3 "" H 4100 1500 50  0001 C CNN
-	1    4100 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR02
 U 1 1 5F5775BA
 P 1800 1350
@@ -291,17 +280,6 @@ F 3 "" H 4350 1500 50  0001 C CNN
 	1    4350 1500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR06
-U 1 1 5F588E4C
-P 4650 1500
-F 0 "#PWR06" H 4650 1350 50  0001 C CNN
-F 1 "VCC" H 4665 1673 50  0000 C CNN
-F 2 "" H 4650 1500 50  0001 C CNN
-F 3 "" H 4650 1500 50  0001 C CNN
-	1    4650 1500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 1850 4350 1850
 Wire Wire Line
@@ -348,7 +326,7 @@ L Regulator_Linear:MCP1703A-3302_SOT23 U2
 U 1 1 5F593FA7
 P 3900 5650
 F 0 "U2" H 3900 5892 50  0000 C CNN
-F 1 "MCP1703A-3302_SOT23" H 3900 5801 50  0000 C CNN
+F 1 "MCP1703A" H 3900 5801 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3900 5850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 3900 5600 50  0001 C CNN
 	1    3900 5650
@@ -359,7 +337,7 @@ L Regulator_Linear:MCP1703A-3302_SOT23 U3
 U 1 1 5F594C88
 P 3900 6450
 F 0 "U3" H 3900 6692 50  0000 C CNN
-F 1 "MCP1703A-3302_SOT23" H 3900 6601 50  0000 C CNN
+F 1 "MCP1703A" H 3900 6601 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3900 6650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 3900 6400 50  0001 C CNN
 	1    3900 6450
@@ -432,17 +410,6 @@ F 3 "~" H 3300 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR035
-U 1 1 5F59C36D
-P 4450 5600
-F 0 "#PWR035" H 4450 5450 50  0001 C CNN
-F 1 "VCC" H 4465 5773 50  0000 C CNN
-F 2 "" H 4450 5600 50  0001 C CNN
-F 3 "" H 4450 5600 50  0001 C CNN
-	1    4450 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR023
 U 1 1 5F59D10D
 P 8500 4500
@@ -451,17 +418,6 @@ F 1 "GNDA" H 8505 4327 50  0000 C CNN
 F 2 "" H 8500 4500 50  0001 C CNN
 F 3 "" H 8500 4500 50  0001 C CNN
 	1    8500 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VAA #PWR039
-U 1 1 5F59E88F
-P 4450 6400
-F 0 "#PWR039" H 4450 6250 50  0001 C CNN
-F 1 "VAA" H 4465 6573 50  0000 C CNN
-F 2 "" H 4450 6400 50  0001 C CNN
-F 3 "" H 4450 6400 50  0001 C CNN
-	1    4450 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -582,28 +538,6 @@ F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P-B" H 1450 4500 50  0001 C CNN
 F 3 "~" H 1450 4500 50  0001 C CNN
 	1    1450 4300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR018
-U 1 1 5F5DF46D
-P 900 3750
-F 0 "#PWR018" H 900 3600 50  0001 C CNN
-F 1 "VCC" H 915 3923 50  0000 C CNN
-F 2 "" H 900 3750 50  0001 C CNN
-F 3 "" H 900 3750 50  0001 C CNN
-	1    900  3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR019
-U 1 1 5F5E053F
-P 1450 3750
-F 0 "#PWR019" H 1450 3600 50  0001 C CNN
-F 1 "VCC" H 1465 3923 50  0000 C CNN
-F 2 "" H 1450 3750 50  0001 C CNN
-F 3 "" H 1450 3750 50  0001 C CNN
-	1    1450 3750
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R10
@@ -803,18 +737,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 1350 8600 1400
 $Comp
-L power:VAA #PWR03
-U 1 1 5F61B614
-P 9050 1350
-F 0 "#PWR03" H 9050 1200 50  0001 C CNN
-F 1 "VAA" H 9065 1523 50  0000 C CNN
-F 2 "" H 9050 1350 50  0001 C CNN
-F 3 "" H 9050 1350 50  0001 C CNN
-	1    9050 1350
-	1    0    0    -1  
-$EndComp
-Connection ~ 9050 1350
-$Comp
 L power:GNDD #PWR08
 U 1 1 5F61C6D4
 P 9550 1650
@@ -860,18 +782,6 @@ Wire Wire Line
 	8400 1050 8400 1350
 Connection ~ 9550 1350
 $Comp
-L power:VCC #PWR01
-U 1 1 5F620163
-P 9550 1050
-F 0 "#PWR01" H 9550 900 50  0001 C CNN
-F 1 "VCC" H 9565 1223 50  0000 C CNN
-F 2 "" H 9550 1050 50  0001 C CNN
-F 3 "" H 9550 1050 50  0001 C CNN
-	1    9550 1050
-	1    0    0    -1  
-$EndComp
-Connection ~ 9550 1050
-$Comp
 L Connector_Generic:Conn_01x20 J4
 U 1 1 5F6213BD
 P 2250 6600
@@ -892,17 +802,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 850 6600 50  
 F 3 "~" H 850 6600 50  0001 C CNN
 	1    850  6600
 	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VAA #PWR030
-U 1 1 5F62AD2E
-P 1100 5650
-F 0 "#PWR030" H 1100 5500 50  0001 C CNN
-F 1 "VAA" H 1115 5823 50  0000 C CNN
-F 2 "" H 1100 5650 50  0001 C CNN
-F 3 "" H 1100 5650 50  0001 C CNN
-	1    1100 5650
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR032
@@ -951,17 +850,6 @@ Wire Wire Line
 	1050 5700 1100 5700
 Wire Wire Line
 	1100 5700 1100 5650
-$Comp
-L power:VCC #PWR031
-U 1 1 5F63C308
-P 2000 5650
-F 0 "#PWR031" H 2000 5500 50  0001 C CNN
-F 1 "VCC" H 2015 5823 50  0000 C CNN
-F 2 "" H 2000 5650 50  0001 C CNN
-F 3 "" H 2000 5650 50  0001 C CNN
-	1    2000 5650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDD #PWR033
 U 1 1 5F63D254
@@ -1337,7 +1225,7 @@ USB Type C as \nFull Speed USB 2.0
 Text Notes 2950 850  0    100  Italic 20
 VCP control circuit
 Text Notes 5550 850  0    100  Italic 20
-Oscilator
+HSE Oscilator
 Text Notes 7100 850  0    100  Italic 20
 Microcontroller core
 $Comp
@@ -1349,17 +1237,6 @@ F 1 "Conn_ST_STDC14" H 9607 5405 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD" H 10050 5450 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf" V 9700 4200 50  0001 C CNN
 	1    10050 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR027
-U 1 1 5F95D0A5
-P 10050 4750
-F 0 "#PWR027" H 10050 4600 50  0001 C CNN
-F 1 "VCC" H 10065 4923 50  0000 C CNN
-F 2 "" H 10050 4750 50  0001 C CNN
-F 3 "" H 10050 4750 50  0001 C CNN
-	1    10050 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1423,5 +1300,130 @@ Wire Wire Line
 Text Notes 750  5300 0    100  Italic 20
 Side headers
 Text Notes 2800 7500 0    50   ~ 0
-No luck identifying the used diode in original schematics.\nSuppsingly, has a SOD123 package:\n- black body\n- red paint on half of body\n- caption "2" on black part
+No luck identifying the used diode in original schematics.\nSupposingly, has a SOD123 package:\n- black body\n- red paint on half of body\n- caption "2" on black part
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4246E
+P 4450 5600
+F 0 "#PWR?" H 4450 5450 50  0001 C CNN
+F 1 "+3.3V" H 4465 5773 50  0000 C CNN
+F 2 "" H 4450 5600 50  0001 C CNN
+F 3 "" H 4450 5600 50  0001 C CNN
+	1    4450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5FA42E96
+P 4450 6400
+F 0 "#PWR?" H 4450 6250 50  0001 C CNN
+F 1 "+3.3VA" H 4465 6573 50  0000 C CNN
+F 2 "" H 4450 6400 50  0001 C CNN
+F 3 "" H 4450 6400 50  0001 C CNN
+	1    4450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5FA441A2
+P 9050 1350
+F 0 "#PWR?" H 9050 1200 50  0001 C CNN
+F 1 "+3.3VA" H 9065 1523 50  0000 C CNN
+F 2 "" H 9050 1350 50  0001 C CNN
+F 3 "" H 9050 1350 50  0001 C CNN
+	1    9050 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 1350
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5FA45E5F
+P 1100 5650
+F 0 "#PWR?" H 1100 5500 50  0001 C CNN
+F 1 "+3.3VA" H 1115 5823 50  0000 C CNN
+F 2 "" H 1100 5650 50  0001 C CNN
+F 3 "" H 1100 5650 50  0001 C CNN
+	1    1100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA466DA
+P 2000 5650
+F 0 "#PWR?" H 2000 5500 50  0001 C CNN
+F 1 "+3.3V" H 2015 5823 50  0000 C CNN
+F 2 "" H 2000 5650 50  0001 C CNN
+F 3 "" H 2000 5650 50  0001 C CNN
+	1    2000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4713F
+P 10050 4750
+F 0 "#PWR?" H 10050 4600 50  0001 C CNN
+F 1 "+3.3V" H 10065 4923 50  0000 C CNN
+F 2 "" H 10050 4750 50  0001 C CNN
+F 3 "" H 10050 4750 50  0001 C CNN
+	1    10050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4799E
+P 9550 1000
+F 0 "#PWR?" H 9550 850 50  0001 C CNN
+F 1 "+3.3V" H 9565 1173 50  0000 C CNN
+F 2 "" H 9550 1000 50  0001 C CNN
+F 3 "" H 9550 1000 50  0001 C CNN
+	1    9550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1000 9550 1050
+Connection ~ 9550 1050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4D0BA
+P 4650 1500
+F 0 "#PWR?" H 4650 1350 50  0001 C CNN
+F 1 "+3.3V" H 4665 1673 50  0000 C CNN
+F 2 "" H 4650 1500 50  0001 C CNN
+F 3 "" H 4650 1500 50  0001 C CNN
+	1    4650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4DA8B
+P 4100 1500
+F 0 "#PWR?" H 4100 1350 50  0001 C CNN
+F 1 "+3.3V" H 4115 1673 50  0000 C CNN
+F 2 "" H 4100 1500 50  0001 C CNN
+F 3 "" H 4100 1500 50  0001 C CNN
+	1    4100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4E235
+P 1450 3750
+F 0 "#PWR?" H 1450 3600 50  0001 C CNN
+F 1 "+3.3V" H 1465 3923 50  0000 C CNN
+F 2 "" H 1450 3750 50  0001 C CNN
+F 3 "" H 1450 3750 50  0001 C CNN
+	1    1450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA4EF95
+P 900 3750
+F 0 "#PWR?" H 900 3600 50  0001 C CNN
+F 1 "+3.3V" H 915 3923 50  0000 C CNN
+F 2 "" H 900 3750 50  0001 C CNN
+F 3 "" H 900 3750 50  0001 C CNN
+	1    900  3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
