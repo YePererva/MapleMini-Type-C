@@ -1426,4 +1426,6 @@ F 3 "" H 900 3750 50  0001 C CNN
 	1    900  3750
 	1    0    0    -1  
 $EndComp
+Text Notes 4950 5800 0    50   ~ 0
+Previous revision (R2) contained 2 diodes.\nOne extra at Vin.\nPerhaps, protection against revesed polatiry.
 $EndSCHEMATC
